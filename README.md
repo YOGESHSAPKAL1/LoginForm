@@ -2,9 +2,9 @@
 HTML,CSS,JAVASCRIPT
 
 # 1:Login page
-Admin:- Yogesh
-password :- 123
-login succesful only form admin.
+Admin:- Yogesh <br>
+password :- 123 <br>
+login succesful only for admin. <br>
 
 ![Login page](https://user-images.githubusercontent.com/100685912/178744885-45b53d62-ce37-41d3-8f1f-66d6223e38ce.PNG)
 
