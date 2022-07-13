@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool App</title>
+
+    <link rel="stylesheet" href="css/form.css">
+    
+
+</head>
+<body>
+    <div class="registerBtn">
+        <a href="register.html" class="btn  btn-secondary">Register</a>
+    </div>
+    <div class="alert-box">
+        <p class="alert"></p>
+    </div>
+    <div class="form">
+        <h1 class="heading">Cool App</h1>
+        <div class="col-12 text-center img-circle" >
+        <img src="../public/img/icon22.jpg" alt="User icon" class = "userImage">      
+        </div>
+        <input type="email" placeholder="email" autocomplete="off" class="email" id ="username" required>
+        <input type="password" placeholder="password" autocomplete="off" class="password" id = "password" required>
+        <input  class="btn submit-btn" type="button" value="Enter" id="submit" onclick="validate()"/>
+    </div>
+
+    <script src="js/home.js"></script>
+    <script src="js/form.js"></script>
+</body>
+</html>
